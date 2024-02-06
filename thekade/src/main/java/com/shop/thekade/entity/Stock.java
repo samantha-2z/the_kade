@@ -11,4 +11,12 @@ public class Stock extends BaseEntity{
     @Id
     @GeneratedValue
     private int id;
+    private String description;
+    private String employeId;
+    private String stockId;
+    private String location;
+    private String bundlePerPapers;
+    private String bundle;
+    private String stockPrice;
+
 }

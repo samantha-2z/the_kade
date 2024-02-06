@@ -11,4 +11,8 @@ public class Item extends BaseEntity{
     @Id
     @GeneratedValue
     private int id;
+    private String type;
+    private String brand;
+    private String colour;
+    private String salesPrice;
 }

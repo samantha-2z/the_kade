@@ -15,4 +15,11 @@ public class Grn extends BaseEntity{
     @Id
     @GeneratedValue
     private int id;
+    private String orderNo;
+    private String description;
+    private String quantatity;
+    private String rate;
+    private String total;
+
+
 }
