@@ -15,6 +15,8 @@ public class Department extends BaseEntity {
     @Id
     @GeneratedValue
     private int id;
+    private String depatrmentName;
+
 
 
 }

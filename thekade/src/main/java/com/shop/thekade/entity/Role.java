@@ -11,4 +11,6 @@ public class Role extends BaseEntity{
     @Id
     @GeneratedValue
     private int id;
+    private String role;
+    private String employId;
 }

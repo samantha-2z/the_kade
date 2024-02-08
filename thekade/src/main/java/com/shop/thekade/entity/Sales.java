@@ -11,4 +11,6 @@ public class Sales extends BaseEntity{
     @Id
     @GeneratedValue
     private int id;
+    private String area;
+    private String totalSales;
 }
