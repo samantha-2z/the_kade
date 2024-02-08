@@ -18,5 +18,4 @@ public class Stock extends BaseEntity{
     private String bundlePerPapers;
     private String bundle;
     private String stockPrice;
-
 }

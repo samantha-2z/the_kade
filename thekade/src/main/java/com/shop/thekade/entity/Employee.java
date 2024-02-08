@@ -11,10 +11,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Data
 @NoArgsConstructor
-
-
-
-
 public class Employee {
     @Id
     @GeneratedValue
@@ -24,7 +20,4 @@ public class Employee {
     private String tel;
     private String position;
     private String address;
-
-
-
 }
