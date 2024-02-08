@@ -20,6 +20,4 @@ public class Grn extends BaseEntity{
     private String quantatity;
     private String rate;
     private String total;
-
-
 }
